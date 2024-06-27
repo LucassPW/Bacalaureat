@@ -200,6 +200,29 @@ body {
   }
 }
 
+body {
+  &.opere {
+    .head-item.active,
+    .head-item:hover {
+      color: blueviolet;
+    }
+  }
+}body {
+  &.subiectul2 {
+    .head-item.active,
+    .head-item:hover {
+      color: rgb(24, 196, 187);
+    }
+  }
+}body {
+  &.curente {
+    .head-item.active,
+    .head-item:hover {
+      color: #922909;
+    }
+  }
+}
+
 /* Pagina Matematica */
 body {
   &.matematica {
@@ -215,6 +238,7 @@ body {
     }
   }
 }
+
 
 /* Hover styles for head-item links in specific pages */
 
@@ -235,6 +259,35 @@ body {
   }
 }
 
+body.romana .head-romana a:hover {
+  color: #216fff; /* Purple for Limba Română */
+}
+
+body.romana .head-biologie a:hover {
+  color: #4CAF50; /* Green for Biologie */
+}
+
+body.romana .head-matematica a:hover {
+  color: #FFA500; /* Orange for Matematica */
+}
+
+body.romana .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.romana .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.romana .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
+body.romana .head-acasa a:hover {
+  color: black;
+}
+
+
 /* Pagina Biologie */
 body.biologie .head-romana a:hover {
   color: #216fff; /* Purple for Limba Română */
@@ -247,6 +300,21 @@ body.biologie .head-matematica a:hover {
 body.biologie .head-acasa a:hover {
   color: #000000; /* Black for Acasa */
 }
+
+body.biologie .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.biologie .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.biologie .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
+
+
 
 /* Pagina Matematica */
 body.matematica .head-romana a:hover {
@@ -261,6 +329,18 @@ body.matematica .head-acasa a:hover {
   color: #000000; /* Black for Acasa */
 }
 
+body.matematica .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.matematica .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.matematica .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
 /* Pagina acasa */
 body.acasa .head-romana a:hover {
   color: #216fff; /* Purple for Limba Română */
@@ -273,4 +353,104 @@ body.acasa .head-biologie a:hover {
 body.acasa .head-matematica a:hover {
   color: #FFA500; /* Orange for Matematica */
 }
+
+body.acasa .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.acasa .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.acasa .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
+/* Pagina Opere */
+body.opere .head-romana a:hover {
+  color: #216fff; /* Purple for Limba Română */
+}
+
+body.opere .head-biologie a:hover {
+  color: #4CAF50; /* Green for Biologie */
+}
+
+body.opere .head-matematica a:hover {
+  color: #FFA500; /* Orange for Matematica */
+}
+
+body.opere .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.opere .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.opere .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
+body.opere .head-acasa a:hover {
+  color: black;
+}
+
+/* Pagina Subiectul2 */
+body.subiectul2 .head-romana a:hover {
+  color: #216fff; /* Purple for Limba Română */
+}
+
+body.subiectul2 .head-biologie a:hover {
+  color: #4CAF50; /* Green for Biologie */
+}
+
+body.subiectul2 .head-matematica a:hover {
+  color: #FFA500; /* Orange for Matematica */
+}
+
+body.subiectul2 .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.subiectul2 .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.subiectul2 .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
+body.subiectul2 .head-acasa a:hover {
+  color: black;
+}
+
+/* Pagina curente */
+body.curente .head-romana a:hover {
+  color: #216fff; /* Purple for Limba Română */
+}
+
+body.curente .head-biologie a:hover {
+  color: #4CAF50; /* Green for Biologie */
+}
+
+body.curente .head-matematica a:hover {
+  color: #FFA500; /* Orange for Matematica */
+}
+
+body.curente .head-opere a:hover {
+  color: blueviolet; /* Black for Acasa */
+}
+
+body.curente .head-curente a:hover {
+  color: #922909; /* Black for Acasa */
+}
+
+body.curente .head-subiect2 a:hover {
+  color: #21fff4; /* Black for Acasa */
+}
+
+body.curente .head-acasa a:hover {
+  color: black;
+}
+
 
